@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color:chartreuse;
+                font-family:verdana;
+                text-align:center;
+            }
+            #form{
+                background-color:aliceblue;
+                max-width:500px;
+                margin:50px auto;
+                /*padding:30px 20px;
+                box-shadow:2px 5px 10px rgba(0,0,0,0.5);*/
+            }
+            .form_base{
+                text-align:left;
+                margin-bottom:25px;
+                margin-left:200px;
+            }
+            .form_base label{
+                display:block;
+                margin-bottom:2px;
+                font-weight:bold;
+            }
+        </style>
+
+    </head>
+    <body>
+        <form id=""form>
+            <h1>survey form</h1>
+            <div class="form_base">
+               <label for="name">Name</label>
+             <input type="text" id="name" placeholder="Enter Your Name"> <br>
+             <label for="rollno">Roll-No</label>
+             <input type="text" id="rollno" placeholder="Enter Your rollno"> <br>
+             <label for="age">Age</label>
+             <input type="text" id="age"  placeholder="Enter Your Age"> <br>
+             <label for="email">Email</label>
+            <input type="text"  id="email" placeholder="Enter Your email">
+
+            </div>
+            <div class="form_base">
+                <label for="department">Department</label>
+                <select  id="department">
+                <option value="computer science and enginering">computer science and enginering</option>
+                <option value="civil enginering">civil enginering</option>
+                <option value="electrical enginerning">electrical enginerning</option>
+                <option value="mechanical enginering">mechanical enginering</option>
+                <option value="eletronic and communication enginering">eletronic and communication enginering</option>
+
+                </select>
+
+            </div>
+            <div class="form_base">
+                <label for="gender">Gender</label>
+                <!-- for radio  button in both input name must be same   -->
+                <input type="radio" name="gender">Male</input>
+                <input type="radio" name="gender">Female</input>
+
+            </div>
+            <div class="form_base">
+                <label>Languages and framework in which you intrested</label>
+                <input type="checkbox">C<br>
+                <input type="checkbox">python<br>
+                <input type="checkbox">java<br>
+                <input type="checkbox">machine learning<br>
+                <input type="checkbox">artificial intelligence<br>
+                <input type="checkbox">full stack devlopment<br>
+                <input type="checkbox">flutter<br>
+                <input type="checkbox">data base management system<br>
+                <input type="checkbox">operating system<br>
+                <input type="checkbox">c++<br>
+               
+
+            </div>
+            <div class="form_base">
+                <label>Any comment or Suggestion</label>
+                <textarea placeholder="Enter Your comment here">
+
+                </textarea>
+
+            </div>
+           <div class="form_base">
+            <button type="Submit" value="Submit">Submit
+
+            </button>
+           </div>
+        </form>
+    </body>
+</html>
